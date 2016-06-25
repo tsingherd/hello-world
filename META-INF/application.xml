@@ -4,10 +4,10 @@
              xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_6.xsd"
              version="6">
 
-    <module id="UMIClass-Web">
+    <module id="helloWorld-Web">
         <web>
             <web-uri>web.war</web-uri>
-            <context-root>UMIClassWeb</context-root>
+            <context-root>helloWorldWeb</context-root>
         </web>
     </module>
 </application>
