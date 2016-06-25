@@ -1,0 +1,112 @@
+[
+  {
+    "title": "scanf函数被称为______输入函数。",
+    "option": [
+      {
+        "id": 1,
+        "content": "字符"
+      },
+      {
+        "id": 2,
+        "content": "整数"
+      },
+      {
+        "id": 3,
+        "content": "格式"
+      },
+      {
+        "id": 4,
+        "content": "浮点"
+      }
+    ],
+    "type": 1,
+    "answer": 3,
+    "difficulty": 1,
+    "checkpoint": ["基础","概念"],
+    "applicability": ["练习","测验"],
+    "knowledge": [
+      {
+        "id": 1,
+        "name": "函数"
+      },
+      {
+        "id": 2,
+        "name": "输入输出"
+      }
+    ],
+    "from": "system administrator",
+    "time": "2015-12-17"
+  },
+  {
+    "title": "下面正确的字符常量是______。",
+    "option": [
+      {
+        "id": 1,
+        "content": "\"c\""
+      },
+      {
+        "id": 2,
+        "content": "'\\''"
+      },
+      {
+        "id": 3,
+        "content": "'W'"
+      },
+      {
+        "id": 4,
+        "content": "'"
+      }
+    ],
+    "type": 1,
+    "answer": 3,
+    "difficulty": 1,
+    "checkpoint": ["基础","概念"],
+    "applicability": ["练习","测验"],
+    "knowledge": [
+      {
+        "id": 3,
+        "name": "数据类型"
+      },
+      {
+        "id": 4,
+        "name": "常量"
+      }
+    ],
+    "from": "system administrator",
+    "time": "2015-12-17"
+  },
+  {
+    "title": "不正确的C程序描述是______。",
+    "option": [
+      {
+        "id": 1,
+        "content": "每个语句和数据定义的最后必须有个分号"
+      },
+      {
+        "id": 2,
+        "content": "一个C程序的书写格式要求严格，一行只能写一个语句"
+      },
+      {
+        "id": 3,
+        "content": "C语言的本身没有输入输出语句"
+      },
+      {
+        "id": 4,
+        "content": "一个C程序总是从main()函数开始执行"
+      }
+    ],
+    "type": 1,
+    "answer": 4,
+    "difficulty": 1,
+    "checkpoint": ["基础","概念"],
+    "applicability": ["练习","测验"],
+    "knowledge": [
+      {
+        "id": 5,
+        "name": "c语言语句"
+      }
+    ],
+    "from": "system administrator",
+    "time": "2015-12-17"
+  }
+]

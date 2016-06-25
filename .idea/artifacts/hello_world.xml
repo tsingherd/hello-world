@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="exploded-war" build-on-make="true" name="hello-world">
-    <output-path>$PROJECT_DIR$/out/artifacts/hello_world</output-path>
-    <root id="root">
-      <element id="module-output" name="hello-world" />
-    </root>
-  </artifact>
-</component>
