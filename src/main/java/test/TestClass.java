@@ -8,6 +8,9 @@ import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import service.Client;
+import service.Service;
+import service.ServiceProxy;
 
 /**
  * Created by TangJiong on 2015/12/16.
@@ -128,6 +131,19 @@ public class TestClass {
 
         knowledgeDao.delete(knowledge);
 
+    }
+
+    @Test
+    public void testConcurrence(){
+        Service s = new ServiceProxy();//启用一个服务代理，初始化一个服务实例和线程对象,初始化线程对象后会初始化一个请求队列和启用线程
+        Client c1 = new Client(s);//启用一个客户端1，调用服务实例
+        Client c2 = new Client(s);//启用一个客户端2，调用服务实例
+        Client c3 = new Client(s);//启用一个客户端3，调用服务实例
+        Client c4 = new Client(s);//启用一个客户端4，调用服务实例
+        c1.requestService();//客户端调用服务实例的某个服务方法
+        c3.requestService();
+        c2.requestService();
+        c4.requestService();
     }
 
 }
