@@ -1,4 +1,4 @@
-package service;
+package service.newFeature;
 
 import java.util.ArrayList;
 import java.util.Arrays;

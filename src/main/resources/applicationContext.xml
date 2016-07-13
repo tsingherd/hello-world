@@ -44,4 +44,26 @@
     <!-- QuestionDao -->
     <bean id="questionDao" class="dao.QuestionDao" parent="daoBase"/>
 
+    <!-- =============== hsf ==========-->
+    <bean id="HelloWorldService" class="com.taobao.hsf.app.spring.util.HSFSpringProviderBean" init-method="init">
+
+        <property name="serviceInterface" value="service.hsf.HelloWorldService"></property>
+
+
+        <property name="target" ref="HelloWorldServiceImpl"></property>
+
+
+        <property name="serviceVersion" value="1.0.0.daily_zc"></property>
+
+
+        <property name="serviceGroup" value="HSF"></property>
+
+        <!-- 这个服务的所有方法进行统一的超时时间设置，
+          但如果客户端配置了超时时间，则会优先使用客户端超时时间  -->
+        <property name="clientTimeout" value="3000"></property>
+
+        <!-- 默认为 Hessian，Hessian 的效率比 Java 序列化要高 -->
+        <property name="serializeType" value="hessian"/>
+    </bean>
+
 </beans>
