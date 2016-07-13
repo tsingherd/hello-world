@@ -5,12 +5,11 @@ import dao.QuestionDao;
 import model.Knowledge;
 import model.Question;
 import org.junit.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import service.Client;
-import service.Service;
-import service.ServiceProxy;
+import service.concurrence.Client;
+import service.concurrence.Service;
+import service.concurrence.ServiceProxy;
 
 /**
  * Created by TangJiong on 2015/12/16.
