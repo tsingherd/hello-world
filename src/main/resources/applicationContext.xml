@@ -53,7 +53,7 @@
         <property name="target" ref="HelloWorldServiceImpl"></property>
 
 
-        <property name="serviceVersion" value="1.0.0.daily_zc"></property>
+        <property name="serviceVersion" value="1.0.0.daily_ty2"></property>
 
 
         <property name="serviceGroup" value="HSF"></property>
