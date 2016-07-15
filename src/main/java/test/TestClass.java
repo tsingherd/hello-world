@@ -17,6 +17,8 @@ import service.concurrence.ServiceProxy;
  */
 public class TestClass {
 
+//    @Autowired
+//    private ServiceUnitService serviceUnitService;
 
     private ApplicationContext context;
 
@@ -143,6 +145,12 @@ public class TestClass {
         c3.requestService();
         c2.requestService();
         c4.requestService();
+    }
+
+    @Test
+    public void testHsfComsumer(){
+        //hsf不支持在单元测试的时候调用！
+//        serviceUnitService.getServiceUnitAssById(179L);
     }
 
 }

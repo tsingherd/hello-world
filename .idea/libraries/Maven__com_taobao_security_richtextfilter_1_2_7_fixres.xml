@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.taobao.security:richtextfilter:1.2.7-fixres">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/security/richtextfilter/1.2.7-fixres/richtextfilter-1.2.7-fixres.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/security/richtextfilter/1.2.7-fixres/richtextfilter-1.2.7-fixres-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/security/richtextfilter/1.2.7-fixres/richtextfilter-1.2.7-fixres-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.taobao.security:security:3.0-SCM-passat">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/security/security/3.0-SCM-passat/security-3.0-SCM-passat.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/security/security/3.0-SCM-passat/security-3.0-SCM-passat-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/security/security/3.0-SCM-passat/security-3.0-SCM-passat-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -44,7 +44,7 @@
     <!-- QuestionDao -->
     <bean id="questionDao" class="dao.QuestionDao" parent="daoBase"/>
 
-    <!-- =============== hsf ==========-->
+    <!-- =============== 提供hsf服务 ==========-->
     <bean id="HelloWorldService" class="com.taobao.hsf.app.spring.util.HSFSpringProviderBean" init-method="init">
 
         <property name="serviceInterface" value="service.hsf.HelloWorldService"></property>
@@ -65,5 +65,23 @@
         <!-- 默认为 Hessian，Hessian 的效率比 Java 序列化要高 -->
         <property name="serializeType" value="hessian"/>
     </bean>
+
+    <!-- =============== 调用外部的hsf服务 ==========-->
+    <bean id="serviceUnitService" class="com.taobao.hsf.app.spring.util.HSFSpringConsumerBean" init-method="init">
+        <property name="interfaceName" value="com.cainiao.iwant.tsc.client.service.ServiceUnitService"/>
+        <property name="version" value="1.0.0.daily"/>
+        <property name="group" value="DAILYGROUP"/>
+        <!--<property name="maxWaitTimeForCsAddress"  value="5000"/>-->
+        <!--<property name="clientTimeout" value="50000"/>-->
+    </bean>
+
+   <!-- <bean id="serviceUnitService" class="com.taobao.hsf.app.spring.util.HSFSpringConsumerBean" init-method="init">
+
+        <property name="interfaceName" value="com.cainiao.iwant.tsc.client.service.ServiceUnitService"></property>
+
+        <property name="version" value="1.0.0.daily"></property>
+
+        &lt;!&ndash;<property name="group" value="DAILYGROUP"></property>&ndash;&gt;
+    </bean>-->
 
 </beans>
